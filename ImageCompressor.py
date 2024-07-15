@@ -4,7 +4,6 @@ from PIL import Image  # PIL (Python Imaging Library) es una biblioteca que perm
 from tqdm import tqdm  # Proporciona una barra de progreso visual en la terminal para iteraciones, útil para mostrar el progreso de bucles largos.
 from datetime import datetime  # Proporciona clases para manipular fechas y horas, permitiendo realizar operaciones y formatear fechas y horas de manera sencilla.
 
-
 def sanitize_filename(filename):
     """
     Elimina caracteres especiales y espacios del nombre de archivo.
